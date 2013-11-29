@@ -21,6 +21,7 @@
 		111F066A184914B000820BAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 111F064C184914AF00820BAD /* UIKit.framework */; };
 		111F0672184914B000820BAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 111F0670184914B000820BAD /* InfoPlist.strings */; };
 		111F0674184914B000820BAD /* swipeViewTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 111F0673184914B000820BAD /* swipeViewTestTests.m */; };
+		111F0680184914C200820BAD /* SwipeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 111F067F184914C200820BAD /* SwipeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		111F066F184914B000820BAD /* swipeViewTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "swipeViewTestTests-Info.plist"; sourceTree = "<group>"; };
 		111F0671184914B000820BAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		111F0673184914B000820BAD /* swipeViewTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = swipeViewTestTests.m; sourceTree = "<group>"; };
+		111F067E184914C200820BAD /* SwipeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeView.h; sourceTree = "<group>"; };
+		111F067F184914C200820BAD /* SwipeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,7 @@
 				111F065D184914AF00820BAD /* ViewController.h */,
 				111F065E184914AF00820BAD /* ViewController.m */,
 				111F0660184914AF00820BAD /* Images.xcassets */,
+				111F067D184914C200820BAD /* SwipeView */,
 				111F064F184914AF00820BAD /* Supporting Files */,
 			);
 			path = swipeViewTest;
@@ -150,6 +154,15 @@
 				111F0670184914B000820BAD /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		111F067D184914C200820BAD /* SwipeView */ = {
+			isa = PBXGroup;
+			children = (
+				111F067E184914C200820BAD /* SwipeView.h */,
+				111F067F184914C200820BAD /* SwipeView.m */,
+			);
+			path = SwipeView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				111F065F184914AF00820BAD /* ViewController.m in Sources */,
+				111F0680184914C200820BAD /* SwipeView.m in Sources */,
 				111F0659184914AF00820BAD /* AppDelegate.m in Sources */,
 				111F0655184914AF00820BAD /* main.m in Sources */,
 			);
